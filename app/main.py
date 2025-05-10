@@ -1,3 +1,7 @@
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+from portfolio import Portfolio
+
 import streamlit as st
 from langchain_community.document_loaders import WebBaseLoader
 
