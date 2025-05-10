@@ -1,4 +1,5 @@
 import os
+os.environ["SQLITE_USE_PYSQLITE3"] = "1"
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 from portfolio import Portfolio
 
