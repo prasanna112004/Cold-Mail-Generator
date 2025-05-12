@@ -1,7 +1,7 @@
-streamlit==1.45.0
-pandas==2.2.3
-chromadb==0.3.6
-langchain_community==0.3.23
-langchain_groq==0.3.2
-protobuf>=3.20.3,<4.0.0
-sqlite3
+streamlit
+pandas
+chromadb
+langchain_community
+langchain_groq
+protobuf
+
